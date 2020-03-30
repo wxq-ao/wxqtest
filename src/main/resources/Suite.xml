@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="test">
+    <test name="login">
+        <classes>
+            <class name="com.wxqtest.testNG.suite.SuiteConfig"></class>
+            <class name="com.wxqtest.testNG.suite.LoginTest"></class>
+        </classes>
+    </test>
+    <test name="pay">
+        <classes>
+            <class name="com.wxqtest.testNG.suite.SuiteConfig"></class>
+            <class name="com.wxqtest.testNG.suite.PayTest"></class>
+        </classes>
+    </test>
+    <test name="order">
+        <classes>
+            <class name="com.wxqtest.testNG.suite.SuiteConfig"></class>
+            <class name="com.wxqtest.testNG.suite.Order"></class>
+        </classes>
+    </test>
+
+</suite>
